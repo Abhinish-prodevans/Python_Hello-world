@@ -11,7 +11,7 @@ $ ls -lrt
 
 Then change directory to the cloned dir
 
-$ cd <clone directory>
+$ cd clone directory
 Like: cd Spring_boot_Hello_World
 
 The above dir will have a file named "Dockerfile", which will help to pass parameter to buid the docker container.
@@ -26,7 +26,7 @@ $ docker images
 
 Then run the docker as follows:
 
-$ docker run  <imageName:tagNo.>
+$ docker run  imageName:tagNo.
 
 Like: docker run spring_boot_hello:v1.0
 
@@ -49,7 +49,7 @@ Use this IP to call the webpage, which the container is serving (port for sprint
 
 To check the web page now CURL with the IP address returned as follows:
 
-$ curl <IPAddress>:<Port>
+$ curl IPAddress:Port
   
 Like: curl 172.17.0.2:8080 (enter) - It will return the hello world!
 
