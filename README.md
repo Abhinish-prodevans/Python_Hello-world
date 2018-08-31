@@ -7,11 +7,13 @@ From the Docker lab console clone from the github as follows:
 $ git clone https://github.com/Abhinish-prodevans/Python_Hello-world.git
 
 Then check what has cloned
+
 $ ls -lrt
 
 Then change directory to the cloned dir
 
 $ cd clone directory
+
 Like: cd Spring_boot_Hello_World
 
 The above dir will have a file named "Dockerfile", which will help to pass parameter to buid the docker container.
